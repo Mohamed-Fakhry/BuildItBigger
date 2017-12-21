@@ -6,7 +6,7 @@ android {
 
     defaultConfig {
         applicationId "com.udacity.gradle.builditbigger"
-        minSdkVersion 16
+        minSdkVersion 19
         targetSdkVersion 26
         versionCode 1
         versionName "1.0"
@@ -26,6 +26,7 @@ dependencies {
         exclude group: 'com.android.support', module: 'support-annotations'
     })
     compile project(':javaJokes')
+    compile project(':displayjokes')
     compile 'com.android.support:appcompat-v7:26.1.0'
     compile 'com.google.android.gms:play-services-ads:11.6.2'
 }
